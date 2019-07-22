@@ -75,7 +75,7 @@ public class HomePageTest {
 		homePage.setTextemail(email);
 		String msg = homePage.sucess();
 
-		Assert.assertTrue(msg.contains("You have successfully subscribed to this newsletter"), "success fully");
+		Assert.assertTrue(msg.contains("i am successfully subscribed to this newsletter"), "success fully");
 
 	}
 
